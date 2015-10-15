@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="pizza.php">
+    <totals>
+      <lines total="63" comments="26" code="37" executable="17" executed="0" percent="0.00%"/>
+      <methods count="4" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Pizza" start="6" executable="17" executed="0" crap="30">
+      <package full="" name="" sub="" category=""/>
+      <namespace name=""/>
+      <method name="__construct" signature="__construct($name)" start="26" end="29" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="addIngredient" signature="addIngredient(Ingredient $ingredient)" start="34" end="37" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="calculateCost" signature="calculateCost()" start="42" end="51" crap="6" executable="7" executed="0" coverage="0"/>
+      <method name="render" signature="render(pizzaRender $renderer)" start="57" end="62" crap="2" executable="4" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

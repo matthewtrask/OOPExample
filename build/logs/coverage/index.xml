@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <project name="/Users/mtrask/PhpstormProjects/pizza/src">
+    <tests>
+      <test name="moneyTest::testNonIntegerAmountWillThrowException" size="unknown" result="0" status="PASSED"/>
+      <test name="moneyTest::testCanBeConstructedWithIntegerValue" size="unknown" result="0" status="PASSED"/>
+      <test name="moneyTest::testAddingDifferentCurrenciesWillThrowException" size="unknown" result="0" status="PASSED"/>
+      <test name="moneyTest::testMoneyCanBeAdded" size="unknown" result="0" status="PASSED"/>
+      <test name="moneyTest::testCurrencyCanBeReturned" size="unknown" result="0" status="PASSED"/>
+      <test name="moneyTest::testValueCanBeReturned" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/Users/mtrask/PhpstormProjects/pizza/src">
+      <totals>
+        <lines total="700" comments="244" code="456" executable="203" executed="12" percent="5.91%"/>
+        <methods count="55" tested="5" percent="9.09%"/>
+        <functions count="0" tested="0" percent=""/>
+        <classes count="24" tested="1" percent="4.17%"/>
+        <traits count="0" tested="0" percent=""/>
+      </totals>
+      <file name="Menu.php" href="Menu.php.xml">
+        <totals>
+          <lines total="41" comments="17" code="24" executable="12" executed="0" percent="0.00%"/>
+          <methods count="3" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="cad.php" href="cad.php.xml">
+        <totals>
+          <lines total="8" comments="0" code="8" executable="3" executed="0" percent="0.00%"/>
+          <methods count="1" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="currency.php" href="currency.php.xml">
+        <totals>
+          <lines total="10" comments="0" code="10" executable="1" executed="0" percent="0.00%"/>
+          <methods count="1" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <directory name="display">
+        <totals>
+          <lines total="26" comments="0" code="26" executable="11" executed="0" percent="0.00%"/>
+          <methods count="3" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="3" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <file name="htmlRenderer.php" href="display/htmlRenderer.php.xml">
+          <totals>
+            <lines total="8" comments="0" code="8" executable="3" executed="0" percent="0.00%"/>
+            <methods count="1" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="jsonRenderer.php" href="display/jsonRenderer.php.xml">
+          <totals>
+            <lines total="8" comments="0" code="8" executable="3" executed="0" percent="0.00%"/>
+            <methods count="1" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="xmlRenderer.php" href="display/xmlRenderer.php.xml">
+          <totals>
+            <lines total="10" comments="0" code="10" executable="5" executed="0" percent="0.00%"/>
+            <methods count="1" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+      </directory>
+      <file name="htmlRenderer.php" href="display/htmlRenderer.php.xml">
+        <totals>
+          <lines total="8" comments="0" code="8" executable="3" executed="0" percent="0.00%"/>
+          <methods count="1" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="jsonRenderer.php" href="display/jsonRenderer.php.xml">
+        <totals>
+          <lines total="8" comments="0" code="8" executable="3" executed="0" percent="0.00%"/>
+          <methods count="1" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="xmlRenderer.php" href="display/xmlRenderer.php.xml">
+        <totals>
+          <lines total="10" comments="0" code="10" executable="5" executed="0" percent="0.00%"/>
+          <methods count="1" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="factory.php" href="factory.php.xml">
+        <totals>
+          <lines total="86" comments="32" code="54" executable="32" executed="0" percent="0.00%"/>
+          <methods count="9" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ingredient.php" href="ingredient.php.xml">
+        <totals>
+          <lines total="16" comments="9" code="7" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="0" tested="0" percent=""/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <directory name="ingredients">
+        <totals>
+          <lines total="178" comments="72" code="106" executable="47" executed="0" percent="0.00%"/>
+          <methods count="16" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="8" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <file name="bacon.php" href="ingredients/bacon.php.xml">
+          <totals>
+            <lines total="22" comments="9" code="13" executable="6" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="cheese.php" href="ingredients/cheese.php.xml">
+          <totals>
+            <lines total="23" comments="9" code="14" executable="6" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="mushrooms.php" href="ingredients/mushrooms.php.xml">
+          <totals>
+            <lines total="22" comments="9" code="13" executable="6" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="olives.php" href="ingredients/olives.php.xml">
+          <totals>
+            <lines total="22" comments="9" code="13" executable="6" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="pepperoni.php" href="ingredients/pepperoni.php.xml">
+          <totals>
+            <lines total="22" comments="9" code="13" executable="6" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="peppers.php" href="ingredients/peppers.php.xml">
+          <totals>
+            <lines total="23" comments="9" code="14" executable="6" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="sauce.php" href="ingredients/sauce.php.xml">
+          <totals>
+            <lines total="23" comments="9" code="14" executable="6" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="sausage.php" href="ingredients/sausage.php.xml">
+          <totals>
+            <lines total="21" comments="9" code="12" executable="5" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+      </directory>
+      <file name="bacon.php" href="ingredients/bacon.php.xml">
+        <totals>
+          <lines total="22" comments="9" code="13" executable="6" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="cheese.php" href="ingredients/cheese.php.xml">
+        <totals>
+          <lines total="23" comments="9" code="14" executable="6" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="mushrooms.php" href="ingredients/mushrooms.php.xml">
+        <totals>
+          <lines total="22" comments="9" code="13" executable="6" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="olives.php" href="ingredients/olives.php.xml">
+        <totals>
+          <lines total="22" comments="9" code="13" executable="6" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="pepperoni.php" href="ingredients/pepperoni.php.xml">
+        <totals>
+          <lines total="22" comments="9" code="13" executable="6" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="peppers.php" href="ingredients/peppers.php.xml">
+        <totals>
+          <lines total="23" comments="9" code="14" executable="6" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="sauce.php" href="ingredients/sauce.php.xml">
+        <totals>
+          <lines total="23" comments="9" code="14" executable="6" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="sausage.php" href="ingredients/sausage.php.xml">
+        <totals>
+          <lines total="21" comments="9" code="12" executable="5" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="money.php" href="money.php.xml">
+        <totals>
+          <lines total="67" comments="26" code="41" executable="12" executed="12" percent="100.00%"/>
+          <methods count="5" tested="5" percent="100.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="pizza.php" href="pizza.php.xml">
+        <totals>
+          <lines total="63" comments="26" code="37" executable="17" executed="0" percent="0.00%"/>
+          <methods count="4" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="pizzaRender.php" href="pizzaRender.php.xml">
+        <totals>
+          <lines total="14" comments="9" code="5" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="0" tested="0" percent=""/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="recipe.php" href="recipe.php.xml">
+        <totals>
+          <lines total="16" comments="9" code="7" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="0" tested="0" percent=""/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <directory name="recipes">
+        <totals>
+          <lines total="93" comments="15" code="78" executable="42" executed="0" percent="0.00%"/>
+          <methods count="8" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="4" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <file name="everythingRecipe.php" href="recipes/everythingRecipe.php.xml">
+          <totals>
+            <lines total="22" comments="0" code="22" executable="13" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="meatLoverRecipe.php" href="recipes/meatLoverRecipe.php.xml">
+          <totals>
+            <lines total="26" comments="6" code="20" executable="10" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="plainRecipe.php" href="recipes/plainRecipe.php.xml">
+          <totals>
+            <lines total="26" comments="9" code="17" executable="9" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="vegetarianRecipe.php" href="recipes/vegetarianRecipe.php.xml">
+          <totals>
+            <lines total="19" comments="0" code="19" executable="10" executed="0" percent="0.00%"/>
+            <methods count="2" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+      </directory>
+      <file name="everythingRecipe.php" href="recipes/everythingRecipe.php.xml">
+        <totals>
+          <lines total="22" comments="0" code="22" executable="13" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="meatLoverRecipe.php" href="recipes/meatLoverRecipe.php.xml">
+        <totals>
+          <lines total="26" comments="6" code="20" executable="10" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="plainRecipe.php" href="recipes/plainRecipe.php.xml">
+        <totals>
+          <lines total="26" comments="9" code="17" executable="9" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="vegetarianRecipe.php" href="recipes/vegetarianRecipe.php.xml">
+        <totals>
+          <lines total="19" comments="0" code="19" executable="10" executed="0" percent="0.00%"/>
+          <methods count="2" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="renderLocator.php" href="renderLocator.php.xml">
+        <totals>
+          <lines total="61" comments="23" code="38" executable="23" executed="0" percent="0.00%"/>
+          <methods count="3" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="renderer.php" href="renderer.php.xml">
+        <totals>
+          <lines total="13" comments="6" code="7" executable="2" executed="0" percent="0.00%"/>
+          <methods count="1" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="usd.php" href="usd.php.xml">
+        <totals>
+          <lines total="8" comments="0" code="8" executable="1" executed="0" percent="0.00%"/>
+          <methods count="1" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>

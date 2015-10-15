@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="money.php">
+    <totals>
+      <lines total="67" comments="26" code="41" executable="12" executed="12" percent="100.00%"/>
+      <methods count="5" tested="5" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="money" start="6" executable="12" executed="12" crap="7">
+      <package full="" name="" sub="" category=""/>
+      <namespace name=""/>
+      <method name="__construct" signature="__construct(Currency $currency, $amount)" start="23" end="28" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="ensureInteger" signature="ensureInteger($amount)" start="33" end="38" crap="2" executable="3" executed="3" coverage="100"/>
+      <method name="add" signature="add(Money $amount)" start="44" end="51" crap="2" executable="3" executed="3" coverage="100"/>
+      <method name="getCurrency" signature="getCurrency()" start="56" end="59" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getValue" signature="getValue()" start="64" end="67" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="25">
+        <covered by="moneyTest::testNonIntegerAmountWillThrowException"/>
+        <covered by="moneyTest::testCanBeConstructedWithIntegerValue"/>
+        <covered by="moneyTest::testAddingDifferentCurrenciesWillThrowException"/>
+        <covered by="moneyTest::testMoneyCanBeAdded"/>
+        <covered by="moneyTest::testCurrencyCanBeReturned"/>
+        <covered by="moneyTest::testValueCanBeReturned"/>
+      </line>
+      <line nr="26">
+        <covered by="moneyTest::testCanBeConstructedWithIntegerValue"/>
+        <covered by="moneyTest::testAddingDifferentCurrenciesWillThrowException"/>
+        <covered by="moneyTest::testMoneyCanBeAdded"/>
+        <covered by="moneyTest::testCurrencyCanBeReturned"/>
+        <covered by="moneyTest::testValueCanBeReturned"/>
+      </line>
+      <line nr="27">
+        <covered by="moneyTest::testCanBeConstructedWithIntegerValue"/>
+        <covered by="moneyTest::testAddingDifferentCurrenciesWillThrowException"/>
+        <covered by="moneyTest::testMoneyCanBeAdded"/>
+        <covered by="moneyTest::testCurrencyCanBeReturned"/>
+        <covered by="moneyTest::testValueCanBeReturned"/>
+      </line>
+      <line nr="28">
+        <covered by="moneyTest::testCanBeConstructedWithIntegerValue"/>
+        <covered by="moneyTest::testAddingDifferentCurrenciesWillThrowException"/>
+        <covered by="moneyTest::testMoneyCanBeAdded"/>
+        <covered by="moneyTest::testCurrencyCanBeReturned"/>
+        <covered by="moneyTest::testValueCanBeReturned"/>
+      </line>
+      <line nr="35">
+        <covered by="moneyTest::testNonIntegerAmountWillThrowException"/>
+        <covered by="moneyTest::testCanBeConstructedWithIntegerValue"/>
+        <covered by="moneyTest::testAddingDifferentCurrenciesWillThrowException"/>
+        <covered by="moneyTest::testMoneyCanBeAdded"/>
+        <covered by="moneyTest::testCurrencyCanBeReturned"/>
+        <covered by="moneyTest::testValueCanBeReturned"/>
+      </line>
+      <line nr="36">
+        <covered by="moneyTest::testNonIntegerAmountWillThrowException"/>
+      </line>
+      <line nr="38">
+        <covered by="moneyTest::testCanBeConstructedWithIntegerValue"/>
+        <covered by="moneyTest::testAddingDifferentCurrenciesWillThrowException"/>
+        <covered by="moneyTest::testMoneyCanBeAdded"/>
+        <covered by="moneyTest::testCurrencyCanBeReturned"/>
+        <covered by="moneyTest::testValueCanBeReturned"/>
+      </line>
+      <line nr="46">
+        <covered by="moneyTest::testAddingDifferentCurrenciesWillThrowException"/>
+        <covered by="moneyTest::testMoneyCanBeAdded"/>
+      </line>
+      <line nr="47">
+        <covered by="moneyTest::testAddingDifferentCurrenciesWillThrowException"/>
+      </line>
+      <line nr="49">
+        <covered by="moneyTest::testMoneyCanBeAdded"/>
+      </line>
+      <line nr="58">
+        <covered by="moneyTest::testAddingDifferentCurrenciesWillThrowException"/>
+        <covered by="moneyTest::testMoneyCanBeAdded"/>
+        <covered by="moneyTest::testCurrencyCanBeReturned"/>
+      </line>
+      <line nr="66">
+        <covered by="moneyTest::testMoneyCanBeAdded"/>
+        <covered by="moneyTest::testValueCanBeReturned"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

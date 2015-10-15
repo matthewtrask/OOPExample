@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Pizza" default="autoload">
+    <property name="toolsdir" value="${basedir}/tools/"/>
+
+    <target name="build"
+            depends="autoload,phpunit"
+            description=""/>
+
+    <target name="autoload"
+            description="Generate the autoloader.">
+        <exec executable="${toolsdir}phpab" taskname="phpab">
+            <arg value="-1" />
+            <arg value="--output" />
+            <arg path="${basedir}/src/autoload.php" />
+            <arg path="${basedir}/src" />
+        </exec>
+    </target>
+
+    <target name="phpunit"
+            depends="autoload"
+            description="Run unit tests with PHPUnit">
+        <exec executable="${toolsdir}phpunit.phar" failonerror="true" taskname="phpunit">
+            <arg value="--configuration"/>
+            <arg path="${basedir}/build/phpunit.xml"/>
+        </exec>
+
+        <property name="phpunit.done" value="true"/>
+    </target>
+</project>

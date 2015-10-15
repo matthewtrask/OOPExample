@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="everythingRecipe.php">
+    <totals>
+      <lines total="22" comments="0" code="22" executable="13" executed="0" percent="0.00%"/>
+      <methods count="2" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="everythingRecipe" start="3" executable="13" executed="0" crap="6">
+      <package full="" name="" sub="" category=""/>
+      <namespace name=""/>
+      <method name="getName" signature="getName()" start="5" end="8" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="buildPizza" signature="buildPizza()" start="10" end="22" crap="2" executable="10" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

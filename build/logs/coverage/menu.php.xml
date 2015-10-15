@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Menu.php">
+    <totals>
+      <lines total="41" comments="17" code="24" executable="12" executed="0" percent="0.00%"/>
+      <methods count="3" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Menu" start="6" executable="12" executed="0" crap="20">
+      <package full="" name="" sub="" category=""/>
+      <namespace name=""/>
+      <method name="getRecipe" signature="getRecipe($name)" start="17" end="24" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="addRecipe" signature="addRecipe(Recipe $recipe)" start="29" end="32" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="buildPizza" signature="buildPizza($name)" start="38" end="41" crap="2" executable="3" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>
